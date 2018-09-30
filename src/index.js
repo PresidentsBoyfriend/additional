@@ -2,7 +2,6 @@ module.exports = function check(str, bracketsConfig) {
     var chars = str.split(''),
         open = [],
         close = [];
-        var counter = 0;
         for ( var i = 0 ; i < bracketsConfig.length ; i++) {
       open[i] = bracketsConfig[i][0];
       close[i] = bracketsConfig[i][1];  
